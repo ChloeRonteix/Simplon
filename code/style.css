@@ -1,0 +1,30 @@
+h1 {
+    font-size: 32px;
+    color: brown;
+    font-family: 'Pacifico', cursive;
+}
+
+.welcome {
+    border-radius: 30px;
+    box-shadow: 60px -16px teal;
+    text-align: center;
+    width: 70vw;
+    border-width: 30px;
+    margin: auto;
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 20vw;
+    border-radius: 30px;
+}
+
+.my-btn {
+    background:    #b45f06;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal normal 26px/1 "Pacifico", cursive;
+    text-align:    center;
+}
