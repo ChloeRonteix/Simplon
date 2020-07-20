@@ -9,6 +9,13 @@
 		<title>Van IndusTrip</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+        <script>
+            window.FontAwesomeConfig = {
+                searchPseudoElements: true
+            }
+        </script>
 		<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://kit.fontawesome.com/9b497f6c03.js" crossorigin="anonymous"></script>   <!-- icon MAIL issu de Font awesome --> 
@@ -19,7 +26,7 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="logo"><a href="#">Van Industrip<span>On the road again!</span></a></div>
-				<div class ="bouton"><button class="my-btn"><a href="mailto:contact@vanindustrip.com">Je réserve!</a></button></div>
+				<div class ="button-peace"><button class="my-btn" onclick="window.location.href='#reservation'">Je réserve!</button></div>
 			</header>
 
 		<!-- Main -->
@@ -34,12 +41,12 @@
 						</div>
 						<div class="navbar">
 							<div class="links">
-								<a href="" class="link">Présentation</a>
-								<a href="" class="link">Team</a>
+								<a href="#bienvenue" class="link">Présentation</a>
+								<a href="#bagages" class="link">Bagages</a>
 								<a href=mailto:contact@vanindustrip.com" class="link">Contact</a>
 							  </div>
 						</div>
-						<header class="special">
+						<header class="special" id="bienvenue">
 							<h2>Bienvenue en Amérique!</h2>
 							<p>Viens voir comme on est bien!</p>
 						</header>
@@ -73,7 +80,7 @@
 									</div>
 									</div>
 								</div>
-						<center><h3>Prochains départs :</h3></center>
+						<center><h3 id="reservation">Prochains départs :</h3></center>
 						<div class="flex-container">          <!-- Flexboxs -->
 							<div>22/08/20</div>
 							<div>28/12/20</div>
@@ -110,7 +117,7 @@
 
 				<!-- Two -->
 					<section id="two" class="wrapper style2">
-						<header>
+						<header id="bagages">
 							<h2>En route pour l'aventure</h2>
 							<p>Liste des nécessaires</p>
 						</header>
