@@ -1,132 +1,207 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Caminar by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-<head>
-    <meta charset="UTF-8">  
-    <title>Van IndusTrip</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9b497f6c03.js" crossorigin="anonymous"></script>   <!-- icon MAIL issu de Font awesome --> 
-</head>
-<body>
-    <header id="header" class="welcome">
-        <div class="inner-header">
-            <div class="container">
-                <div class="logo">
-                    <h1><span>
-                        Van IndusTrip</span>
-                    </h1>
-                </div>
-                <div class="ima">
-                    <img src="images/van.jpg" alt="van">
-                </div>
-                <div class="header-slogan">
-                    <h2 class="header-slogan-text"><span>
-                         On the road again!</span>
-                    </h2>
-                </div>
-                <div class="navbar">
-                    <div class="links">
-                        <a href="" class="link">Présentation</a>
-                        <a href="" class="link">Team</a>
-                        <a href=mailto:contact@vanindustrip.com" class="link">Contact</a>
-                      </div>
-                </div>
-            </div>
-        </div>
+	<head>
+		<title>Van IndusTrip</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/9b497f6c03.js" crossorigin="anonymous"></script>   <!-- icon MAIL issu de Font awesome --> 
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
 
-    </header>
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="#">Van Industrip<span>On the road again!</span></a></div>
+				<div class ="bouton"><button class="my-btn"><a href="mailto:contact@vanindustrip.com">Je réserve!</a></button></div>
+			</header>
 
-        <div id="road">
-            <div class="guide">
-        <p>Guide expérimenté, je vous propose une aventure à quatre roue dans un van aménagé par mes soins.<br>
-        Un voyage unique de 18600km en Amérique du Nord! <br>
-        Du Mont-Royal à la Tour CN en passant par les Chutes du Niagara.... <br>
-        Des "prairies" aux Rocheuses... <br>
-        De Seattle à San Francisco... <br>
-        Assister à des rodéos, visiter le Walt Disney World Resort... <br>
-        Puis remonter le long de côte est des États-Unis pour un voyage dans l'histoire du pays. <br>
-        Et enfin retrouver le Québec! <br>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-corona" data-toggle="modal" data-target="#exampleModal">
-            Information coronavirus!
-        </button>
-        </p>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Information coronavirus</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          Nous ne sommes en aucun cas responsable en cas d'infection au coronavirus! Merci d'emporter avec vous gel hydroalcoolique et masques, et de respecter les gestes barrières!
-        </div>
-      </div>
-    </div>
-  </div>
-        </div>
-            <div class="carte">
-        <iframe src="https://www.google.com/maps/d/embed?mid=194JDJ3zGvQiXnI4zsv3ZYp1hbvCnZT3a" width="540" height="380"></iframe>    <!-- map Google -->
-            </div>
-        </div>
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
 
-    <div id="orga">
-        <div class="liste">
-            <p>Pour votre confort, merci d'amener avec vous les articles suivant:</p>
-            <ul>
-                <li>Votre passeport!</li>
-                <li>Un sac de couchage</li>
-                <li>Des vêtements adaptés à la randonnée</li>
-                <li>Anti-moustique</li>
-                <li>Casquette et lunettes de soleil</li>
-                <li>Appareil photo pour des souvenirs inoubliables</li>
-            </ul>
-        </div>
-        <div class="pack">
-            <img src="images\backpack.jpg" alt="sac à dos">
-        </div>
-    </div>
-    
-    
-    <p>Je me charge de la nourriture, des billets d'accès aux attractions, des réservations aux campings, et du guidage!</p>
-    <button class="my-btn"><a href="mailto:contact@vanindustrip.com">Je réserve!</a></button>
+				<!-- One -->
+					<section id="one" class="wrapper style1">
 
-    <form action="/ma-page-de-traitement" method="post">    <!-- Formulaire --> 
-        <div>
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">e-mail :</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message"></textarea>
-        </div>
-      </form>
-    
+						<div class="image fit flush">
+							<img src="images/pic02.jpg" alt="" />
+						</div>
+						<div class="navbar">
+							<div class="links">
+								<a href="" class="link">Présentation</a>
+								<a href="" class="link">Team</a>
+								<a href=mailto:contact@vanindustrip.com" class="link">Contact</a>
+							  </div>
+						</div>
+						<header class="special">
+							<h2>Bienvenue en Amérique!</h2>
+							<p>Viens voir comme on est bien!</p>
+						</header>
+						<div class="content">
+							<p>Guide expérimenté, je vous propose une aventure à quatre roue dans un van aménagé par mes soins.<br>
+								Un voyage unique de 18600km en Amérique du Nord! <br>
+								Du Mont-Royal à la Tour CN en passant par les Chutes du Niagara.... <br>
+								Des "prairies" aux Rocheuses... <br>
+								De Seattle à San Francisco... <br>
+								Assister à des rodéos, visiter le Walt Disney World Resort... <br>
+								Puis remonter le long de côte est des États-Unis pour un voyage dans l'histoire du pays. <br>
+								Et enfin retrouver le Québec! <br>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-corona" data-toggle="modal" data-target="#exampleModal">
+									Information coronavirus!
+								</button>
+								</p>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Information coronavirus</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										</div>
+										<div class="modal-body">
+										Nous ne sommes en aucun cas responsable en cas d'infection au coronavirus! Merci d'emporter avec vous gel hydroalcoolique et masques, et de respecter les gestes barrières!
+										</div>
+									</div>
+									</div>
+								</div>
+						<center><h3>Prochains départs :</h3></center>
+						<div class="flex-container">          <!-- Flexboxs -->
+							<div>22/08/20</div>
+							<div>28/12/20</div>
+							<div>10/04/21</div>  
+							<div>20/08/21</div> 
+							<div>25/12/21</div> 
+							<div>26/03/22</div> 
+							</div>
+							<br>
+  
+						<center><h3>Réserver maintenant :</h3></center>
+						
+						<div class="form-style-2">
+							<form action="" method="post">
+								<label for="field1"><span>Nom <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+								<label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+								<label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="10"  /></label>
+								<label for="field4"><span>Date</span><select name="field4" class="select-field">
+									<option value="General Question">22/08/20</option>
+									<option value="Partnership">28/12/20</option>
+									<option value="Partnership">10/04/21</option>
+									<option value="Partnership">20/08/21</option>
+									<option value="Partnership">25/12/21</option>
+									<option value="Partnership">26/03/22</option>
+							</select></label>
+							<label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
 
-    <div class="footer">                            <!-- Footer --> 
-        <div class="footer-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="footer-copyright">
-          #VanLife <i class="fas fa-heart"></i> Forever!
-        </div>
-    </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+							<label><span> </span><input type="submit" value="Submit" /></label>
+							</form>
+							</div>
+							<p>*En acceptant l'inscription vous accepetez l'intégralité de notre réglement.</p>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style2">
+						<header>
+							<h2>En route pour l'aventure</h2>
+							<p>Liste des nécessaires</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+										<a href="images/backpack.jpg"><img src="images/backpack.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<p>  Pour votre confort, merci d'amener avec vous les articles suivant:</p>
+										<ul>
+											<li>Votre passeport!</li>
+											<li>Un sac de couchage</li>
+											<li>Des vêtements adaptés à la randonnée</li>
+											<li>Anti-moustique</li>
+											<li>Casquette et lunettes de soleil</li>
+											<li>Appareil photo pour des souvenirs inoubliables</li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic04.jpg"><img src="images/pic04.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic05.jpg"><img src="images/pic05.jpg" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper">
+					<div class="spotlight">
+						<iframe src="https://www.google.com/maps/d/embed?mid=194JDJ3zGvQiXnI4zsv3ZYp1hbvCnZT3a" width="640" height="480"></iframe>    <!-- map Google -->
+						<div class="inner">
+							<h3>Et on va ou ?</h3>
+							<p>Pendant ces trois mois nous feront le tour de l'Amérique en traverssant 33 états ! </p>
+						</div>
+					</div>
+					<div class="spotlight alt">
+						<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
+						<div  class="inner">
+							<h3>Es-ce vraiment fait pour moi ?</h3>
+							<p>Si tu as l'âme d'un aventurier n'attend plus !</p>
+						</div>
+					</div>
+					<div class="spotlight">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/SLiM_9Puqhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="inner">
+                                <h3>Des conseils ?</h3>
+                                <p>Regarde cette petite vidéo elle te donnera de nombreux conseils pour éviter tout problèmes !</p>
+                            </div>
+                        </div>
+                    </section>
+
+			</div>
+		</section>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<div class="footer">                            <!-- Footer --> 
+			<div class="footer-links">
+			  <a href="#"><i class="fab fa-github"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-facebook"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-linkedin"></i></a>
+			</div>
+			<div class="footer-copyright">
+			  #VanLife <i class="fas fa-heart"></i> Forever!
+			</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
 </html>
