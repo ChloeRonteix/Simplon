@@ -1,8 +1,17 @@
 h1 {
-    font-size: 32px;
-    color: brown;
-    font-family: 'Pacifico', cursive;
-}
+    font-family: 'Leckerli One', cursive;
+    font-size: 80px; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h1 span { 
+     background:#fff; 
+     padding:0 30px; 
+ }
+
+
 h2 {
     font-family: 'Leckerli One', cursive;
     font-size: 15px; 
@@ -16,6 +25,14 @@ h2 {
      padding:0 10px; 
  }
 
+ .ima img {
+     display: inline-block;
+     width: 50%;
+     margin: 30px 0;
+     border-radius: 30px;
+     
+ }
+
 .inner-header {
     width: 100%;
     background-size: cover;
@@ -26,8 +43,6 @@ h2 {
 .inner-header .container {
     padding: 40px 0;
     text-align: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .header-slogan {
@@ -36,9 +51,79 @@ h2 {
     line-height: 1;
 }
 
-img {
-    width: 20vw;
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2F3DC;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link {
+    margin: 10px 30px;
+    color: #9F3442;
+  }
+  
+  .link:hover {
+    color: #458D2E;
+  }
+
+#road {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+.guide p {
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.carte {
+    align-items: center;
+    width: fit-content;
+}
+
+.btn-corona {
+    color: red;
+    background-color: #f1efdc;
+    border-color: red;
+}
+
+#orga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+}
+
+.liste {
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.liste ul {
+    margin: 50px;
+    text-align: justify;
+}
+
+.pack {
+    width: 50%;
+}
+
+.pack img{
+    width: 100%;
     border-radius: 30px;
+    filter: drop-shadow(0 0 0.75rem brown);
 }
 
 .my-btn {
@@ -50,3 +135,30 @@ img {
     font:          normal normal 26px/1 "Pacifico", cursive;
     text-align:    center;
 }
+
+.footer {                                              /* Footer */
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
