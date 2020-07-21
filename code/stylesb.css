@@ -10,7 +10,7 @@
 
 .flex-container {
   display: flex;
-  background-color: #AE6132;
+  background-color: lightblue;
 }
 
 .flex-container > div {
@@ -438,7 +438,7 @@ background: #e2f3dc;
   justify-content: center;
   align-items: center;
   background: #e2f3dc;
-  filter: drop-shadow(0 0 0.5rem chocolate);
+  filter: drop-shadow(0 0 0.5rem lightblue);
   margin-top: 10px;
 }
 
