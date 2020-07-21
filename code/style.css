@@ -28,10 +28,12 @@
 .date {
   position: relative;
 }
+
 .booked {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   position: absolute;
   top: 0;
   bottom: 0;
