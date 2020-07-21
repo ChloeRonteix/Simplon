@@ -419,7 +419,8 @@ background: #e2f3dc;
   justify-content: center;
   align-items: center;
   background: #e2f3dc;
-  filter: drop-shadow(0 0 0.75rem chocolate);
+  filter: drop-shadow(0 0 0.5rem chocolate);
+  margin-top: 10px;
 }
 
 .links {
