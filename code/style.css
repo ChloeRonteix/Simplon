@@ -133,7 +133,7 @@ p {
 
 .image.main {
   display: block;
-  margin: 0 0 3rem 0;
+
   width: 100%;
 }
 
@@ -631,30 +631,11 @@ background: #e2f3dc;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slide {
+  width: 343vh !important;
+  height: 400px;
+object-fit: cover;
+}
 
 
 
@@ -662,27 +643,17 @@ background: #e2f3dc;
 
 *{box-sizing: border-box }
 
-img{
 
-max-width:100%
 
+
+/*SLIDESHOW*/
+.slideshow {
+  height: 400px;
 }
 
-
-.slideshow{
-
-border: 80px solid white;
-box-shadow: 0 0 5px hsla(0,0%,0%,.5);
-overflow: hidden;
-margin: 2rem auto;
-position: relative
-
-}
-    
 .slideshow ul{
 
 padding-bottom: 37.67%;/* ratio pour le responsive */
-margin: 0;
 list-style-type: none;
 position: relative
 	
@@ -741,21 +712,6 @@ animation-delay: 20s
 	
 	} 
 
-    
-.slideshow span{
-
-background: rgba(0,0,0,0.7);
-height: 40px;
-align-items: center;
-justify-content: center;
-display: flex;
-color: white;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0
-
-}
     
 /*****barre progression *****/
 .barre_progression{ 
