@@ -632,7 +632,6 @@ background: #e2f3dc;
 
 
 .slide {
-  width: 343vh !important;
   height: 400px;
 object-fit: cover;
 }
@@ -664,6 +663,7 @@ position: relative
 
 top: 0;
 left: 0;
+right: 0;
 animation: slideshow 25s ease infinite;
 position: absolute;
 opacity: 0;
