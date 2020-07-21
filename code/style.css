@@ -474,27 +474,34 @@ body:after {
   color: rgba(255, 255, 255, 0.65);
 }
 
-.button-peace {
-	text-align: left;
-    padding-left: 65px;
-    opacity: 0.6;
-  transition: 0.3s;
-  cursor: pointer;
 
-
+.my-btn:hover {
+  background-color: teal;
 }
 
-.button-peace:hover {opacity: 1;}
-
 .my-btn {
-  background: chocolate;
-  border-radius: 25px;
-  padding: 20px;
+  margin-left: 20px;
+  background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 100px;
+  padding: 15px;
   color: #ffffff;
-  display: left;
+  display: inline-block;
   text-align: center;
   font-family: "Chivo", sans-serif;
   font-size: 10px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .navbar {
