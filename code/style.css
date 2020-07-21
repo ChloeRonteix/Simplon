@@ -476,7 +476,7 @@ body:after {
 
 
 .my-btn:hover {
-  background-color: teal;
+  background: teal;
 }
 
 .my-btn {
