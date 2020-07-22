@@ -360,7 +360,7 @@ body:after {
   -ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
   transition: opacity 1.5s ease-in-out, visibility 1.5s;
   content: "";
-  background-image: url(images/bg.jpg);
+  background-image: url(images/nu01.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -415,12 +415,12 @@ body:after {
 
 
 .my-btn:hover {
-background: #e2f3dc;
+background: grey;
 }
 
 .my-btn {
   margin-left: 20px;
-  background: chocolate;
+  background: black;
   border-radius: 100px;
   padding: 15px;
   color: #ffffff;
@@ -437,8 +437,8 @@ background: #e2f3dc;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e2f3dc;
-  filter: drop-shadow(0 0 0.5rem chocolate);
+  background: grey;
+  filter: drop-shadow(0 0 0.5rem rgb(8, 8, 8));
   margin-top: 10px;
 }
 
@@ -449,7 +449,7 @@ background: #e2f3dc;
 
 .link {
   margin: 10px 30px;
-  color: #9f3442;
+  color: #f5eff0;
   font-family: "Chivo", sans-serif;
 }
 
