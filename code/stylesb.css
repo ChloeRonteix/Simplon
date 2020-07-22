@@ -420,7 +420,7 @@ background: #e2f3dc;
 
 .my-btn {
   margin-left: 20px;
-  background: chocolate;
+  background: #1E9680;
   border-radius: 100px;
   padding: 15px;
   color: #ffffff;
@@ -449,7 +449,6 @@ background: #e2f3dc;
 
 .link {
   margin: 10px 30px;
-  color: #9f3442;
   font-family: "Chivo", sans-serif;
 }
 
